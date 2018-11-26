@@ -1,0 +1,29 @@
+class Setting < ApplicationRecord
+  validates :button_name, presence: true
+  validates :button_color, presence: true
+  validates :opacity, presence: true
+  validates :button_width, presence: true
+  validates :button_height, presence: true
+  validates :button_shape, presence: true
+  validates :button_padding_width, presence: true
+  validates :button_padding_height, presence: true
+  validates :button_text, presence: true
+  validates :text_color, presence: true
+  validates :text_alignment, presence: true
+  validates :text_decoration, presence: true
+  validates :text_transform, presence: true
+  validates :letter_spacing, presence: true
+  validates :font_size, presence: true
+  validates :font_family, presence: true
+  validates :font_style, presence: true
+  validates :font_weight, presence: true
+  validates :font_variant, presence: true
+  validates :border_color, presence: true
+  validates :border_thickness, presence: true
+  validates :shadow_color, presence: true
+  validates :shadow_vertical_offset, presence: true
+  validates :shadow_horizontal_offset, presence: true
+  validates :shadow_spread_offset, presence: true
+  validates :shadow_blur, presence: true
+  belongs_to :component
+end
