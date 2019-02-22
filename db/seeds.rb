@@ -5,10 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Component.create!(component_name: 'First App Sketch')
-Component.create!(component_name: 'Second App Sketch')
-Component.create!(component_name: 'Third App Sketch')
-Component.create!(component_name: 'Fourth App Sketch')
+Component.create!(component_name: 'My Recipe App')
+Component.create!(component_name: 'Family Tree App')
+Component.create!(component_name: 'Wedding Portfolio')
+Component.create!(component_name: 'Dog and Cat Blog')
 
 
 
